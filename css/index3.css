@@ -1,0 +1,321 @@
+
+
+/* ------------shared style---------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.clr_div{
+    clear: both;
+}
+.Home{
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-attachment: scroll;
+     /* عشان الصورة لما اسكرول متجيش معايه اخليها تسكرول لو عايزة تيجي خلي قيمتها فكسيد */
+    height: 100vh;
+    /* دي اختصار لview bort height  يعني اعرضها علي قد ارتفاع المستخدم اللي عندك */
+    background-size: cover;
+    background-position: center;
+    /* عشان اخليها تاخد حجم الشاشة كلها بالاضافة للاسترتش -كونينت-لو مش عايز ستريتش حط الفاليو cover */
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    /* background-color: brown; */
+    overflow: auto;
+} 
+.Home .layer{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    overflow:auto;
+}
+.Home .layer .header .float_right{
+    /* margin: auto; */
+    margin-top: 40px;
+}
+.header ul{
+    width: 35%;
+}
+.header ul li.rightcontect{
+    padding-left: 20px;
+    display: inline-block;
+    text-align: center;
+}
+/* rightcontect محطش اسم الكلاس من ضمن الاسماء اللي بتتنادي  */
+.header ul  a{
+    color: white;
+    /* important//////////////////////////////////////////////////// */
+    text-decoration: none;
+}
+ /* li{
+    display: inline-block;
+    padding: 15;
+    width: 60px;
+} */
+
+.header a.leftcontent{
+    display: inline-block;
+    width: 15%;
+    margin: 15px 15px 15px 30px;
+}
+/* important///////////////////////////////////////////////// */
+.header .leftcontent img{
+    width: 100%;
+}
+.container1{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+.container1 p.one{
+    font-family: "Alegreya Sans";
+    font-size: 26px;
+    margin: 0px 0px 5px;
+}
+.container1 h1{
+    font-family: 'Alegreya';
+    font-size: 76px;
+    margin: 20px 0px;
+    font-weight:400;
+    margin:0px 0px 18px;
+}
+.container1 p.two{
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    margin:  10px 0px 20px;
+    font-weight:400;
+}
+.container1 button{
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin: 50px 5px;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+}
+.container1 .b1{
+    background-color: #8E7754;
+    border: 2px solid transparent;
+    border-width: 0;
+}
+.container1 .b1:hover{
+    background-color: white;
+    color: black;
+}
+.container1 .animation_rectangular{
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+.container1 .animation_circle{
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: white;
+        margin: auto;
+        margin-top: 10px;
+}
+/* important//////////////////////////////////// */
+.container1 .b2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.container1 .b2:hover{
+    background-color: white;
+    color: black;
+}
+
+/* ----------- start About section ------------- */
+.compobox{
+    margin: 40px 40px;
+    overflow: auto;
+}
+
+.compobox .img {
+    width: 40%;
+    margin: 20px 10px;
+}
+.compobox .img img{
+    width: 100%;
+}
+.compobox .who{
+    padding: 0px 0 0 40px;
+    width: 50%;
+    margin: 110px 0 0 0;
+   
+}
+.compobox.who h2{
+    color: #383836;
+    font-size: 30px;
+}
+.compobox .who p{
+    margin: 20px 0;
+    color: #6d6c69;
+    font-size: 15px;
+}
+
+.compobox .who ul li{
+    list-style: none;
+    display: block;
+    width: 50%;
+}
+
+.compobox .who ul img{
+    width: 15%;
+    vertical-align: middle;
+}
+
+/*---------- start location section ------------- */
+
+div.contaner22{
+    width: 100%;
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+.litters{
+    padding: 0 40px 0 40px;
+    margin: 170px 0 0 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+.litters h3{
+    font-size: 32px;
+    color: (48, 48, 48);
+    font-family: Alegreya;
+}
+.litters p{
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+}
+
+.contaner22 .img{
+    width: 40%;
+    margin: 30px 60px;
+    display: inline-block;
+}
+.contaner22 .img img{
+    width: 100%;
+}
+/* ----------- start Our Baking section ------------ */
+.conntentBaking{
+    margin: 180px 10px 180px 10px ;
+    overflow: auto;
+    /* background: tomato; */
+}
+.hh{
+    text-align: center;
+}
+h3.hh{
+    font-size: 30px;
+    font-family: "Alegreya";
+    margin: 20px 0 40px 0;
+}
+p.hh{
+    color: #888;
+    font-size: 17px;
+    margin: 0 0 40px 0;
+}
+
+.chiled{
+    text-align: center;
+    width: 33.333%;
+}
+.chiled img{
+    width: 90%;
+}
+.so{
+    margin: 20px;
+}
+.what{
+    margin: 0 60px;
+}
+/* -------- start contact information section ----------- */
+.contact_contact_information{
+    background-color: #F8F8F8;
+    width: 100%;
+    margin-top: 110px;
+    overflow: auto;
+}
+.contact_info1{
+    width: 40%;
+    float: left;
+    padding: 40px ; 
+}
+.contact_info1 h1{
+    font-size: 32px;
+    line-height:44.16px;
+    font-family:Alegreya;
+}
+
+p.ch,h1.ch,ul.ch{
+    width: 70%;
+    padding: 20px;
+}
+
+/* ----------- start  footer section ------------ */
+
+.knowledge{
+    background-color: #353330;
+    overflow: auto;
+    margin-top: 110px;
+    
+}
+.contanerfooter{
+    color: white;
+    width: 90%;
+    margin: 20px auto;
+}
+/*  float: left;
+ ليهم  width: 25%;اني اخلهم كلهم ياخدواshort hand propertirt ليه مفيش 
+ كلهم مرة واحدة */
+.floot_item {
+    width: 25%;
+    color: #969696;
+    /* padding: 20px; */
+}
+.knowledge .contanerfooter .floot_item .footer_inner{
+    width: 90%;
+    margin: auto;
+}
+
+.knowledge .contanerfooter .floot_item h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+.knowledge .contanerfooter .floot_item p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.knowledge .contanerfooter .floot_item .footer_inner li{
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* .knowledge .contanerfooter .floot_item .footer_inner li.lastclass{
+    vertical-align: top;
+} */
+.knowledge .contanerfooter .floot_item .footer_inner .img{
+    width: 15%;
+}
+.knowledge .contanerfooter .floot_item .footer_inner img{
+    width: 100%;
+    vertical-align: middle;
+}
